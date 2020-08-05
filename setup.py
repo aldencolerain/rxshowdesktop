@@ -10,7 +10,7 @@ setup(
     version='0.0.1',
     author='Alden',
     url='https://github.com/aldencolerain/rxshowdesktop.git',
-    description='Example pip package.',
+    description='Desktop toggle for for Xubuntu.',
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
 
@@ -19,7 +19,7 @@ setup(
     include_package_data=True,
 
     # public dependencies
-    install_requires=['pyyaml >= 5'],
+    install_requires=[],
 
     # keep this package private
     classifiers=['Private :: Do Not Upload'],
